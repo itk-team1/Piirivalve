@@ -9,6 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <c:forEach var="guard" items="${dao.guards}">${guard.name}</c:forEach>
 </body>
 </html>
