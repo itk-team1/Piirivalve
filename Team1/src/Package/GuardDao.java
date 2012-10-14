@@ -22,7 +22,7 @@ public class GuardDao {
         Guard g = new Guard();
         g.setName(rs.getString(2));
         g.setAddress(rs.getString(3));
-        g.setGuards(4);
+        g.setGuards(rs.getInt(4));
         rv.add(g);
     }
 
