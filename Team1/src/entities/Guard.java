@@ -1,4 +1,4 @@
-package Package;
+package entities;
 
 public class Guard {
 	String name;

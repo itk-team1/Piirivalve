@@ -3,9 +3,10 @@ package service;
 import java.util.ArrayList;
 import java.util.List;
 
+import entities.Guard;
 
 
-import Package.Guard;
+
 
 public class GuardServiceImpl {
 	

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package Package;
+package entities;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

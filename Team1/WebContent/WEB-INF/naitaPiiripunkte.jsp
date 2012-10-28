@@ -1,0 +1,20 @@
+<jsp:useBean id="guard" class="entities.Guard" scope="session" />
+<html>
+<head>
+<title>Tabel</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Nimi</th>
+			<th>Aadress</th>
+			<th>Valvureid</th>
+		</tr>
+		<tr>
+			<td>${guard.name}</td>
+			<td>${guard.address}</td>
+			<td>${guard.guards}</td>
+		</tr>
+	</table>
+</body>
+</html>
